@@ -1,0 +1,16 @@
+
+=> Global variable
+public static string username
+public static string recby
+{
+	get{ return username; }
+	set{ username = value; }
+}
+
+=> after dt.rows.count
+recby = username.text;
+
+
+
+=> in main page -
+txt_username = login.recby;
